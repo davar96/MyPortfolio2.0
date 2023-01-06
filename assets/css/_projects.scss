@@ -1,0 +1,27 @@
+.project {
+  --section-padding: 40px;
+  border-block: 1px solid var(--white_a9);
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px 10px;
+}
+
+.project-item {
+  max-width: calc(50% - 5px);
+}
+
+.project-card .card-title {
+  color: var(--white_a25);
+  margin-block-end: 10px;
+  text-align: center;
+  transition: var(--transition-2);
+}
+
+.project-card:is(:hover, :focus-visible) .card-title {
+  color: var(--white);
+}
