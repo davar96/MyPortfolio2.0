@@ -4,9 +4,10 @@
 }
 
 .hero-banner {
-  max-width: 150px;
+  max-width: 300px;
   margin-inline: auto;
   margin-block-end: 20px;
+  z-index: 999;
 }
 
 .hero .wrapper {

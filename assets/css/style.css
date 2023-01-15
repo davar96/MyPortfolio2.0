@@ -1009,10 +1009,11 @@ body.active {
 }
 
 .hero-banner {
-  max-width: 150px;
+  max-width: 300px;
   margin-inline: auto;
   -webkit-margin-after: 20px;
           margin-block-end: 20px;
+  z-index: 999;
 }
 
 .hero .wrapper {
